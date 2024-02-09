@@ -201,7 +201,7 @@ button[variant="underline"] {
   }
   & li:hover {
     transform: translateY(-5px);
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--clr-primary-400);
   }
 
   & a:hover {
