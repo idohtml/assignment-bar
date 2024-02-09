@@ -7,8 +7,8 @@
   --clr-primary-500: hsla(261, 75%, 41%, 1);
   --clr-primary-600: hsla(261, 75%, 35%, 1);
 
-  --clr-outline-200: hsla(218, 11%, 65%, 1);
-  --clr-outline-300: hsla(220, 13%, 91%, 1);
+  --btn-outline-200: hsla(218, 11%, 65%, 1);
+  --btn-outline-300: hsla(220, 13%, 91%, 1);
 }
 
 /* CSS Reset */
@@ -124,11 +124,11 @@ button[variant="primary"] {
 
 button[variant="outline"] {
   background-color: transparent;
-  border: 1px solid var(--clr-outline-200);
+  border: 1px solid var(--btn-outline-200);
   font-weight: 500;
 
   &:hover {
-    background-color: var(--clr-outline-300);
+    background-color: var(--btn-outline-300);
   }
 }
 
@@ -192,13 +192,17 @@ button[variant="underline"] {
   display: flex;
   align-items: center;
   gap: 2rem;
-}
 
-.header-nav__list {
-  display: flex;
-  gap: 2rem;
-  font-size: 1.5rem;
-  font-weight: 500;
+  & ul {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  & li:hover {
+    transform: translateY(-5px);
+    border-bottom: 1px solid black;
+  }
 
   & a:hover {
     color: var(--clr-primary-500);
@@ -271,7 +275,7 @@ footer {
 }
 
 .footer-line {
-  border-top: 1px solid var(--clr-outline-200);
+  border-top: 1px solid var(--btn-outline-200);
   margin-bottom: 1.5rem;
 
   max-width: 1536px;
