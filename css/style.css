@@ -104,7 +104,7 @@ select {
 
 /* Section & Sections */
 section {
-  max-width: 1536px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -113,6 +113,8 @@ button {
   background-color: transparent;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
+
   width: 100%;
   height: auto;
 
@@ -125,6 +127,7 @@ button {
 button[variant="primary"] {
   background-color: var(--clr-primary-500);
   color: white;
+  cursor: pointer;
   font-weight: 700;
 
   &:hover {
@@ -135,6 +138,7 @@ button[variant="primary"] {
 button[variant="outline"] {
   background-color: transparent;
   border: 1px solid var(--btn-outline-200);
+  cursor: pointer;
   font-weight: 500;
 
   &:hover {
@@ -146,6 +150,7 @@ button[variant="underline"] {
   background-color: transparent;
   border: none;
   color: var(--clr-primary-500);
+  cursor: pointer;
   font-weight: 500;
 
   &::after {
@@ -172,6 +177,14 @@ button[variant="underline"] {
   place-items: center;
 }
 
+.grid-gap-y {
+  gap: 4rem 0;
+}
+
+.grid-gap-x {
+  gap: 0 8rem;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -193,7 +206,7 @@ button[variant="underline"] {
   display: flex;
   justify-content: space-between;
 
-  max-width: 1536px;
+  max-width: 1280px;
   margin: 2rem auto;
 }
 
@@ -253,25 +266,25 @@ button[variant="underline"] {
   display: flex;
   flex-direction: column;
   align-items: start;
-}
 
-& h1 {
-  font-size: 64px;
-  font-weight: 700;
+  & h1 {
+    font-size: 64px;
+    font-weight: 700;
 
-  width: 75%;
-  line-height: 1;
-}
+    width: 75%;
+    line-height: 1;
+  }
 
-& p {
-  color: var(--clr-secondary-500);
-  margin: 30px 0;
+  & p {
+    color: var(--clr-secondary-500);
+    margin: 30px 0;
 
-  width: 60%;
-}
+    width: 60%;
+  }
 
-& span {
-  color: var(--clr-primary-500);
+  & span {
+    color: var(--clr-primary-500);
+  }
 }
 
 .container {
@@ -311,6 +324,148 @@ button[variant="underline"] {
     object-position: center;
   }
 }
+
+/* Section Sponsers */
+.section-sponsers {
+  margin-top: 8rem;
+
+  width: 100%;
+  height: 100%;
+}
+
+.sponsers-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  & img {
+    height: auto;
+    width: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+}
+
+/* Section Features */
+.section-features {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  overflow: visible;
+
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  & span {
+    font-weight: 200;
+    color: var(--clr-primary-500);
+  }
+}
+
+.features-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+
+  overflow-x: auto;
+  margin: 0 auto;
+}
+
+.card-booking {
+  display: inline-block;
+
+  border: none;
+  border-radius: 12px;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 9, 5);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 9, 5, 0.5) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    opacity: 0;
+    transition: opacity 250ms ease;
+    border-radius: 12px;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+}
+
+.card-booking .card-booking__texbox {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  transform: translate(-150%, 0%);
+  transition: transform 0.5s ease;
+
+  color: white;
+}
+
+.card-booking:hover .card-booking__texbox {
+  transform: translate(0%, 0%);
+}
+
+/* Section Reviews */
+.section-reviews {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  & span {
+    font-weight: 200;
+    color: var(--clr-primary-500);
+  }
+}
+
+.review-card {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+
+  & p {
+    font-style: italic;
+  }
+}
+
+.review-comment {
+  display: flex;
+  flex-direction: column;
+
+  & span {
+    color: var(--clr-secondary-500);
+  }
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -318,8 +473,8 @@ footer {
   align-items: center;
   justify-content: space-between;
 
-  max-width: 1536px;
-  margin: 0 auto;
+  max-width: 1280px;
+  margin: 4rem auto;
 }
 
 .footer-logo {
@@ -370,9 +525,7 @@ footer {
 
 .footer-line {
   border-top: 1px solid var(--btn-outline-200);
-  margin-bottom: 1.5rem;
-
-  max-width: 1536px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
