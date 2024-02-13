@@ -7,8 +7,13 @@
   --clr-primary-500: hsla(261, 75%, 41%, 1);
   --clr-primary-600: hsla(261, 75%, 35%, 1);
 
-  --clr-outline-200: hsla(218, 11%, 65%, 1);
-  --clr-outline-300: hsla(220, 13%, 91%, 1);
+  --clr-secondary-100: hsla(210, 20%, 98%, 1);
+  --clr-secondary-200: hsla(220, 14%, 96%, 1);
+  --clr-secondary-300: hsla(220, 13%, 91%, 1);
+  --clr-secondary-500: hsla(220, 9%, 46%, 1);
+
+  --btn-outline-200: hsla(218, 11%, 65%, 1);
+  --btn-outline-300: hsla(220, 13%, 91%, 1);
 }
 
 /* CSS Reset */
@@ -281,5 +286,5 @@ footer {
 
 /* Alens css */
 .contact-parent {
-  color:aquamarine;
+  color:black;
 }
