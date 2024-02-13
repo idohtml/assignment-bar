@@ -51,11 +51,37 @@
     </header>
     <main>
       <section class="section-contact">
-        <h1>Contact</h1>
-        <div class="contact-parent">
+        <h1>Kontakt</h1>
+        <div class="contact-para">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident commodi perspiciatis ipsa iure. Nesciunt illum voluptate est nemo. Sed dicta dolor, deleniti itaque labore inventore odit ducimus quo? Error, vel voluptates culpa quas quos mollitia neque rem est facilis repellat, omnis quia eligendi autem explicabo, cupiditate consequuntur dolor illum unde!
+            Vi uppskattar ditt intresse för att kontakta oss. Oavsett om du har en fråga, <br> vill göra en reservation eller bara vill säga hej, är vi glada att höra från dig.
           </p>
+          <p>
+            Tänk på att reservationer som görs via mail måste bekräftas av oss för att gälla!
+          </p>
+        </div>
+        <div class="form__conteiner">
+          <form class="form__content">
+            <div class="form__name">
+              <div>
+                <label for="firstName">Förnamn</label>
+                <input type="text" id="firstName" placeholder="Förnamn" required autofocus>
+              </div>
+              <div>
+                <label for="lastName">Efternamn</label>
+                <input type="text" id="lastName" placeholder="Efternamn" required autofocus>
+              </div>
+            </div>
+            <div class="form__mail">
+                <label for="email">Email</label>
+                <input type="email" placeholder="E-post adress" required>
+            </div>
+            <div class="form__message">
+                <label for="text">Meddelande</label>
+                <textarea name="message" id="" cols="30" rows="4" placeholder="Meddelande" required autofocus></textarea>
+            </div>
+              <button class="btn__skicka" type="submit">Skicka</button>
+          </form>
         </div>
       </section>
       <div class="footer-line"></div>
