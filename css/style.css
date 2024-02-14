@@ -300,66 +300,69 @@ h1 {
   font-size: 52px;
   font-weight: 900;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
   justify-content: center;
   
 }
 .contact-para {
+  font-size: 16px;
+  font-weight: 500;
   color:rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   
 }
 
 .form__conteiner {
   width: 400px;
-  height: 100vh;
+  height: 600px;
   display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: start;
-  margin-left: 50px;
-  margin-bottom: 100px;
+  justify-content:flex-start;
 }
 
 .form__content {
   display: flex;
   flex-direction:column;
   justify-content: center;
-  align-items: center;
+  margin-left: 50px;
 
 }
 
 .form__name {
   display: flex;
-  gap: 20px;
-  margin-bottom:40px;
+  gap: 18px;
+  margin-bottom:30px;
 
 }
 
 .form__mail {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  width: 100%;
-  min-height: 200px;
+  margin-bottom:20px;
 
 }
 
 .form__message {
   display: flex;
   flex-direction: column;
-  /* width: 400px; */
-  width: 100%;
-  min-height: 200px;
-
+  margin-bottom: 20px;
 }
 
 .btn__skicka {
-  border: 4px solid black;
+  border: 2px solid black;
 }
 
+.info-conteiner {
+  display: flex;
+  width: 600px;
+  height: 800px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
