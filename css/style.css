@@ -287,7 +287,7 @@ footer {
 /* Alens css */
 
 
-.section-contact {
+.section-contact-one {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -317,9 +317,15 @@ h1 {
   
 }
 
+.section-contact-two {
+  display: flex;
+  flex-direction: row;
+}
+
 .form__conteiner {
-  width: 400px;
-  height: 600px;
+  max-width: 759px;
+  width: 100%;
+  min-height: 557px;
   display: flex;
   justify-content:flex-start;
 }
@@ -358,11 +364,16 @@ h1 {
 
 .info-conteiner {
   display: flex;
-  width: 600px;
-  height: 800px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 400px;
+  width: 100%;
+  min-height: 200px;
+  
 }
 
 .card {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 00px;
 }
