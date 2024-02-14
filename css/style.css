@@ -290,7 +290,6 @@ footer {
 .section-contact-one {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
   
@@ -335,10 +334,6 @@ h1 {
   justify-content:flex-start;
   align-items: center; 
   flex-direction: column;
-  
-  
-  
-
 }
 
 .form-content {
@@ -347,8 +342,7 @@ h1 {
   min-height: 426px;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  
+  margin-right: 50px;
   
 }
 
@@ -386,7 +380,7 @@ h1 {
 }
 
 .btn-skicka {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .info-conteiner {
@@ -399,37 +393,48 @@ h1 {
 
 .info-cards {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   margin-left: 50px;
 }
 
 .card {
-  position: relative;
-  bottom: 70px;
+
   display: flex;
   flex-direction: column;
-  justify-content:baseline;
   gap: 10px;
 }
 
-.card__adress {
-  position: relative;
-  left: 10px;
+.location-icon {
+  width: 20px;
+  height: 20px;
 }
 
-.card__email {
-  position: relative;
-  left: 10px;
+.email-icon {
+  width: 20px;
+  height: 20px;
 }
 
-.card__tel {
-  position: relative;
-  right: 10px;
+.telefon-icon {
+  width: 20px;
+  height: 20px;
 }
 
-.card__media {
-  position: relative;
-  right: 10px;
+.media-icon {
+  width: 20px;
+  height: 20px;
 }
 
+.fb-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.insta-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.medier-logo {
+  display: flex;
+  gap: 4px;
+}
