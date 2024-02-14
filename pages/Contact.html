@@ -63,47 +63,50 @@
       </section>
       <section class="section-contact-two">
         <div class="info-conteiner">
-          <div class="card"><svg>Location</svg>
-            <h2>Adress</h2>
-            <p>Norrbroplatsen 7<br>
-              254 42 Helsingborg</p>
-            <img src="" alt="Location">
-          </div>
-          <div class="card"><svg>telefonlur</svg>
-            <h2>Telefon</h2>
-            <img src="" alt="telefon">
-          </div>
-          <div class="card"><svg>Kuvert</svg>
-            <h2>Email</h2>
-            <p>sundsgardensbar@gmail.se</p>
-            <img src="" alt="mail">
-          </div>
-          <div class="card"><svg>Like</svg>
-            <h2>Social Media</h2>
-            <img src="" alt="sociala medier">
+          <div class="info-cards">
+            <div class="card card__adress">
+              <svg>Location</svg>
+              <h2>Adress</h2>
+              <p>Norrbroplatsen 7<br>
+                254 42 Helsingborg</p>
+            </div>
+            <div class="card card__tel"><svg>telefonlur</svg>
+              <h2>Telefon</h2>
+              <p>042-19 38 00</p>
+            </div>
+            <div class="card card__email">
+              <svg>Kuvert</svg>
+              <h2>Email</h2>
+              <p>sundsgardensbar@hotmail.com</p>
+            </div>
+            <div class="card card__media">
+              <svg>Like</svg>
+              <h2>Social Media</h2>
+              <svg>fb</svg><svg>insta</svg>
+            </div>
           </div>
         </div>
-        <div class="form__conteiner">
-          <form class="form__content">
-            <div class="form__name">
-              <div>
+        <div class="form-conteiner">
+          <form class="form-content">
+            <div class="form-name">
+              <div class="first-name">
                 <label for="firstName">Förnamn</label>
                 <input type="text" id="firstName" placeholder="Förnamn" required autofocus>
               </div>
-              <div>
+              <div class="last-name">
                 <label for="lastName">Efternamn</label>
                 <input type="text" id="lastName" placeholder="Efternamn" required autofocus>
               </div>
             </div>
-            <div class="form__mail">
+            <div class="form-mail">
                 <label for="email">Email</label>
                 <input type="email" placeholder="E-post adress" required>
             </div>
-            <div class="form__message">
+            <div class="form-message">
                 <label for="text">Meddelande</label>
                 <textarea name="message" id="" cols="30" rows="4" placeholder="Meddelande" required autofocus></textarea>
             </div>
-            <button class="btn__skicka" type="submit">Skicka</button>
+            <button class="btn-skicka" type="submit">Skicka</button>
           </form>
         </div>
       </section>

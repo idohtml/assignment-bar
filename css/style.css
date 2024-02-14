@@ -286,11 +286,13 @@ footer {
 
 /* Alens css */
 
-
+/* section one start */
 .section-contact-one {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
   
 
 }
@@ -316,64 +318,118 @@ h1 {
   margin-bottom: 50px;
   
 }
+/* section one end */
 
+
+/* section two start */
 .section-contact-two {
   display: flex;
-  flex-direction: row;
+  
 }
 
-.form__conteiner {
+.form-conteiner {
   max-width: 759px;
   width: 100%;
   min-height: 557px;
   display: flex;
   justify-content:flex-start;
+  align-items: center; 
+  flex-direction: column;
+  
+  
+  
+
 }
 
-.form__content {
+.form-content {
+  max-width: 450px;
+  width: 100%;
+  min-height: 426px;
   display: flex;
-  flex-direction:column;
-  justify-content: center;
-  margin-left: 50px;
-
+  flex-direction: column;
+  justify-content:center;
+  
+  
 }
 
-.form__name {
+.form-name {
   display: flex;
-  gap: 18px;
-  margin-bottom:30px;
-
+  margin-bottom: 30px;
+  gap: 15px;
+  
 }
 
-.form__mail {
+.first-name {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+.last-name {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  
+}
+
+.form-mail {
   display: flex;
   flex-direction: column;
   margin-bottom:20px;
 
 }
 
-.form__message {
+.form-message {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
-.btn__skicka {
+.btn-skicka {
   border: 2px solid black;
 }
 
 .info-conteiner {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 400px;
+  max-width: 757px;
   width: 100%;
-  min-height: 200px;
-  
+  min-height: 557px;
+  margin-left: 50px;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
 }
 
 .card {
+  position: relative;
+  bottom: 70px;
   display: flex;
   flex-direction: column;
-  width: 00px;
+  justify-content:baseline;
+  gap: 10px;
 }
+
+.card__adress {
+  position: relative;
+  left: 10px;
+}
+
+.card__email {
+  position: relative;
+  left: 10px;
+}
+
+.card__tel {
+  position: relative;
+  right: 10px;
+}
+
+.card__media {
+  position: relative;
+  right: 10px;
+}
+
