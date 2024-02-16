@@ -286,6 +286,11 @@ footer {
 
 /* Alens css */
 
+main {
+  background-image: url(../images/contact-img.jpg);
+  background-size: cover;
+}
+
 /* section one start */
 
 .section-contact-one {
@@ -301,6 +306,7 @@ footer {
 
 h1 {
   display: flex;
+  color: var(--clr-primary-400);
   font-size: 52px;
   font-weight: 900;
   margin-top: 50px;
@@ -309,18 +315,25 @@ h1 {
   
 }
 .contact-para {
+  color: var(--clr-secondary-200);
   font-size: 16px;
   font-weight: 500;
-  color:rgb(0, 0, 0);
+  margin-bottom: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px;
   margin-bottom: 50px; 
+  
 }
 
-/* section one end */
+p {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+} 
+/* section one end
 
 
 /* section two start */
@@ -355,7 +368,7 @@ h1 {
 }
 
 .card__adress, .card__tel, .card__email, .card__media {
-  
+  color: var(--clr-secondary-200);
   display: flex;
   justify-content:baseline;
   flex-direction: column;
@@ -370,7 +383,7 @@ h1 {
 
 .card__media {
   position: relative;
-  left: 40px;
+  left: 15px;
   bottom: 100px;
 }
 
@@ -382,40 +395,64 @@ h1 {
 .location-icon {
   width: 30px;
   height: 30px;
+  fill:var(--clr-primary-400)
 }
 
 .email-icon {
   width: 30px;
   height: 30px;
+  fill:var(--clr-primary-400)
 }
 
 .telefon-icon {
   width: 25px;
   height: 25px;
+  fill:var(--clr-primary-400)
 }
 
 .media-icon {
   width: 30px;
   height: 30px;
+  fill:var(--clr-primary-400)
 }
 
 .fb-icon {
   width: 30px;
   height: 30px;
   position: relative;
-  bottom: 10px
+  bottom: 10px;
+  fill:var(--clr-primary-400)
+  
 }
 
 .insta-icon {
   width: 25px;
   height: 25px;
   position: relative;
-  bottom: 8px
+  bottom: 8px;
+  fill:var(--clr-primary-400)
+}
+
+.fb-icon {
+  cursor: pointer;
+}
+
+.insta-icon:hover {
+  cursor: pointer;
 }
 
 .medier-logo {
   display: flex;
   gap: 4px;
+}
+
+.link-mail {
+  color: white;
+}
+
+.link-mail:hover {
+  text-decoration: underline;
+  color: var(--clr-secondary-200);
 }
 /* info end */
 
@@ -433,6 +470,7 @@ h1 {
 }
 
 form {
+  color: var(--clr-secondary-300);
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -444,9 +482,11 @@ form {
 .form-name {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
 }
 
 .form-input {
+  
   display: flex;
   flex-direction: column;
 
@@ -454,6 +494,7 @@ form {
 
   & input,
   textarea {
+    background-color:var(--clr-secondary-300);
     padding: 0.5rem;
     border: none;
     border-radius: 4px;
@@ -461,10 +502,17 @@ form {
 
   & label {
     margin-bottom: 6px;
+    
   }
-} 
-/* form end */
 
+} 
+
+.btn-skicka {
+  height: 40px;
+  background-color:var(--clr-primary-400);
+  color: var(--clr-secondary-200);
+}
+/* form end */
 
 
 
