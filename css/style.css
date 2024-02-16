@@ -288,7 +288,7 @@ footer {
 
 main {
   
-  background-image: url(../images/contact-img.jpg);
+  background-image: url(../images/open-late.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment:fixed;
@@ -462,7 +462,7 @@ p {
 
 .link-mail, .tel-link, .adress-link:hover  {
   cursor: pointer;
-  text-decoration: underline;
+  
   color: var(--clr-secondary-200);
 }
 /* info end */
