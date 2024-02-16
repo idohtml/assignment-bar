@@ -287,8 +287,12 @@ footer {
 /* Alens css */
 
 main {
+  
   background-image: url(../images/contact-img.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment:fixed;
+  
 }
 
 /* section one start */
@@ -430,15 +434,21 @@ p {
   height: 25px;
   position: relative;
   bottom: 8px;
-  fill:var(--clr-primary-400)
+  fill:var(--clr-primary-400);
 }
 
-.fb-icon {
+.fb-icon:hover {
   cursor: pointer;
+  fill:var(--clr-secondary-200);
+  transition-duration: 0.5s;
+  
 }
 
 .insta-icon:hover {
   cursor: pointer;
+  fill:var(--clr-secondary-200);
+  transition-duration: 0.5s;
+  
 }
 
 .medier-logo {
@@ -450,7 +460,8 @@ p {
   color: white;
 }
 
-.link-mail:hover {
+.link-mail, .tel-link, .adress-link:hover  {
+  cursor: pointer;
   text-decoration: underline;
   color: var(--clr-secondary-200);
 }
@@ -511,8 +522,17 @@ form {
   height: 40px;
   background-color:var(--clr-primary-400);
   color: var(--clr-secondary-200);
+
+}
+
+.btn-skicka:hover {
+  cursor: pointer;
+  background-color:var(--clr-primary-600);
+  transition-duration: 0.6s;
+
 }
 /* form end */
+
 
 
 
