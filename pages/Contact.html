@@ -53,7 +53,7 @@
     </header>
     <main>
       <section class="section-contact-one">
-        <h1>Kontakt</h1>
+        <h1>Kontakta oss</h1>
         <div class="contact-para">
           <p>
             Vi uppskattar ditt intresse för att kontakta oss. Oavsett om du har en fråga, <br> vill göra en reservation eller bara vill säga hej, är vi glada att höra från dig.
@@ -96,16 +96,16 @@
             <div class="form-name">
               <div class="form-input">
                 <label for="firstName">Förnamn</label>
-                <input type="firstName" placeholder="Förnamn" />
+                <input type="firstName" id="firstName" placeholder="Fyll i ert förnamn" autofocus/>
               </div>
               <div class="form-input">
                 <label for="lastName">Efternamn</label>
-                <input type="lastName" placeholder="Efternamn" />
+                <input type="lastName" id="lastName" placeholder="Fyll i ert efternamn" />
               </div>
             </div>
             <div class="form-input">
               <label for="email">Email</label>
-              <input type="email" placeholder="Email adress" />
+              <input type="email" id="email" placeholder="Fyll i ert email adress" required />
             </div>
             <div class="form-input">
               <label for="message">Meddelande</label>
@@ -114,6 +114,7 @@
                 id="message"
                 cols="30"
                 placeholder="Meddelande"
+                required
               ></textarea>
             </div>
             <button variant="form" type="submit" class="btn-skicka">Skicka</button>

@@ -322,6 +322,7 @@ h1 {
   color: var(--clr-secondary-200);
   font-size: 16px;
   font-weight: 500;
+  font-style: italic;
   margin-bottom: 1rem;
   display: flex;
   justify-content: center;
@@ -458,12 +459,14 @@ p {
 
 .link-mail {
   color: white;
+  position: relative;
+  bottom: 5px;
 }
 
-.link-mail, .tel-link, .adress-link:hover  {
+.link-mail:hover, .tel-link:hover, .adress-link:hover  {
   cursor: pointer;
-  
-  color: var(--clr-secondary-200);
+  text-decoration-line: underline;
+  /* color: var(--clr-secondary-200); */
 }
 /* info end */
 
