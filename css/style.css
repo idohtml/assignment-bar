@@ -297,13 +297,15 @@ footer {
 
 .section-contact-one {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/contact-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+  padding-bottom: 125px;
 }
 
 .section-contact-one h1 {
@@ -320,7 +322,7 @@ footer {
 .subhero-text {
   display: flex;
   flex-direction: column;
-  margin-bottom: 250px;
+  margin-bottom: 125px;
 }
 
 .contact-para {
@@ -391,6 +393,10 @@ footer {
   fill: var(--clr-primary-400);
   width: 35px;
   height: 35px;
+}
+
+.mb-space {
+  margin-bottom: 125px;
 }
 
 .card__tel {
@@ -541,4 +547,10 @@ form {
   background-color: var(--clr-primary-600);
   transition-duration: 0.6s;
   border: 1px solid var(--clr-primary-400);
+}
+
+/* Section map */
+.section-map {
+  width: 100%;
+  height: 350px;
 }
