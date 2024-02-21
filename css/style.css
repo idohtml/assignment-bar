@@ -103,17 +103,44 @@ section {
   margin: 0 auto;
 }
 
-.flex-container {
+.gallery__h2 {
+  text-align: center;
+  color: var(--clr-primary-600);
+  font-size: 5vw;
+}
+
+.gallery__h3 {
+  text-align: center;
+  color: var(--clr-primary-600);
+  margin-bottom: 50px;
+  font-size: 3vw;
+}
+
+.gallery__container {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
 }
 
 .box {
-  width: 300px;
-  height: 300px;
-  
-  margin: 5px;
+  max-width: 40%;
+  min-height: auto;
+  border: 2px solid var(--clr-primary-600); 
+  background-color: var(--clr-primary-600); 
+  margin:20px auto;
+  align-items: center;
 }
+
+.box .description {
+  padding: 10px;
+  text-align: center;
+  color: var(--clr-outline-300);
+  font-weight: 500;
+  font-size: 2vw;
+}
+
+
 
 
 /* Button components & variants */
