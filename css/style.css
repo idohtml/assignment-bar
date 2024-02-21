@@ -280,6 +280,17 @@ footer {
 
 /* ABOUT PAGE */
 
+main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/Images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
 h2 {
   display: flex;
   justify-self: center;
@@ -288,13 +299,15 @@ h2 {
 }
 
 .about {
-  width: 400px;
+  width: 800px;
   height: 500px;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   position: relative;
   left: 50px;
   top: 100px;
   font-style: italic;
   font-weight: 600;
+}
+p {
+  color: white;
 }
