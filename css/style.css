@@ -279,3 +279,22 @@ footer {
 }
 
 /* ABOUT PAGE */
+
+h2 {
+  display: flex;
+  justify-self: center;
+  color: #511ab7;
+  font-weight: bold;
+}
+
+.about {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  font-style: italic;
+  font-weight: 600;
+}
