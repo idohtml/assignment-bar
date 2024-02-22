@@ -308,6 +308,8 @@ h2 {
   position: relative;
   top: 100px;
   font-weight: 600;
+  animation-name: backInDown;
+  animation-duration: 1s;
 }
 p {
   color: white;
