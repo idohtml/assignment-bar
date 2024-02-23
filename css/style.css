@@ -657,16 +657,7 @@ footer {
 
 /* Alens css */
 
-/* main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/contact-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-} */
-
 /* section one start */
-
 .section-contact-one {
   width: 100%;
   height: 100%;
@@ -711,19 +702,7 @@ footer {
   margin-bottom: 1rexm;
 }
 
-/* section one end
-
-/* .section-contact-two {
-} */
-
-/* info start */
-.info-conteiner {
-  /* display: flex;
-  justify-content: space-around;
-
-  width: 100%;
-  max-width: 757px; */
-}
+/* section one end */
 
 .cards-conteiner {
   display: grid;
@@ -731,13 +710,6 @@ footer {
   row-gap: 4rem;
   column-gap: 4rem;
 
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between; */
-
-  /* max-width: 450px;
-  min-height: 450px; */
   width: 100%;
 }
 
@@ -755,7 +727,6 @@ footer {
   gap: 15px;
 
   color: var(--clr-secondary-200);
-  /* position: relative; */
 }
 
 .card__adress svg,
@@ -771,83 +742,9 @@ footer {
   margin-bottom: 125px;
 }
 
-.card__tel {
-  /* position: relative;
-  right: 30px; */
-}
-
-.card__media {
-  /* position: relative;
-  left: 15px;
-  bottom: 100px; */
-}
-
-.card__email {
-  /* position: relative;
-  bottom: 100px; */
-}
-
-.location-icon {
-  /* width: 30px;
-  height: 30px;
-  fill: var(--clr-primary-400); */
-}
-
-.email-icon {
-  /* width: 30px;
-  height: 30px;
-  fill: var(--clr-primary-400); */
-}
-
-.telefon-icon {
-  /* width: 25px;
-  height: 25px;
-  fill: var(--clr-primary-400); */
-}
-
-.media-icon {
-  /* width: 30px;
-  height: 30px;
-  fill: var(--clr-primary-400); */
-}
-
-.fb-icon {
-  /* width: 30px;
-  height: 30px;
-  position: relative;
-  bottom: 10px;
-  fill: var(--clr-primary-400); */
-}
-
-.insta-icon {
-  /* width: 25px;
-  height: 25px;
-  position: relative;
-  bottom: 8px;
-  fill: var(--clr-primary-400); */
-}
-
-.fb-icon:hover {
-  /* cursor: pointer;
-  fill: var(--clr-secondary-200);
-  transition-duration: 0.5s; */
-}
-
-.insta-icon:hover {
-  /* cursor: pointer;
-  fill: var(--clr-secondary-200);
-  transition-duration: 0.5s; */
-}
-
 .medier-logo {
   display: flex;
   gap: 4px;
-}
-
-.link-mail {
-  /* color: white;
-  position: relative;
-  bottom: 5px; */
 }
 
 .link-mail:hover,
@@ -864,8 +761,6 @@ footer {
   justify-content: center;
 
   width: 100%;
-  /* max-width: 759px;
-  min-height: 557px; */
 }
 
 form {
