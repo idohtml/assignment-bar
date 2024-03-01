@@ -155,6 +155,8 @@ section {
   font-size: 2vw;
 }
 
+/* TODO: Fix the button sizes */
+
 /* Button components & variants */
 button {
   background-color: transparent;
