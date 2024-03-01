@@ -1028,7 +1028,7 @@ form {
   height: 100vh;
   display: grid;
   justify-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
     url(../images/products-backg.jpg);
   background-position: center;
   background-size: cover;
@@ -1087,7 +1087,7 @@ form {
 
 .about {
   box-sizing: border-box;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
     url(/images/back2.jpg);
   background-position: center;
   background-size: cover;
