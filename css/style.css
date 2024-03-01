@@ -147,10 +147,14 @@ section {
   align-items: center;
 }
 
+/* .description {
+  color: white;
+} */
+
 .box .description {
   padding: 10px;
   text-align: center;
-  color: var(--clr-outline-300);
+  color: white;
   font-weight: 500;
   font-size: 2vw;
 }
