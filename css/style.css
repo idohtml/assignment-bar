@@ -641,11 +641,10 @@ button[variant="form"] {
 footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 
   max-width: 1280px;
-  margin: 4rem auto;
+  margin: 8rem auto;
 }
 
 .footer-logo {
@@ -663,7 +662,7 @@ footer {
 }
 
 .footer-nav {
-  font-size: 1.2rem;
+  font-size: 1rem;
 
   & a:hover {
     color: var(--clr-primary-500);
