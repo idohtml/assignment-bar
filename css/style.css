@@ -109,6 +109,8 @@ select {
   }
 }
 
+/* TODO: Fix gallery classes */
+
 /* Section & Sections */
 section {
   max-width: 1280px;
@@ -133,15 +135,15 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .box {
   max-width: 40%;
   min-height: auto;
-  border: 2px solid var(--clr-primary-600); 
-  background-color: var(--clr-primary-600); 
-  margin:20px auto;
+  border: 2px solid var(--clr-primary-600);
+  background-color: var(--clr-primary-600);
+  margin: 20px auto;
   align-items: center;
 }
 
@@ -152,9 +154,6 @@ section {
   font-weight: 500;
   font-size: 2vw;
 }
-
-
-
 
 /* Button components & variants */
 button {
@@ -843,6 +842,8 @@ form {
   }
 }
 
+/* TODO: Remove button classes later */
+
 .btn-skicka {
   height: 40px;
   background-color: var(--clr-primary-400);
@@ -1119,19 +1120,3 @@ form {
   height: 100%;
   margin: 0 auto;
 }
-
-/* .btn {
-  margin: auto;
-  padding: 10px 12px;
-  position: relative;
-  top: 20px;
-  background-color: #511ab7;
-  border: none;
-  border-radius: 4px;
-  width: 100%;
-  height: auto;
-}
-
-.btn:hover {
-  background-color: #7d5abe;
-} */
