@@ -1029,7 +1029,7 @@ form {
   display: grid;
   justify-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../Images/products-backg.jpg);
+    url(../images/products-backg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -1088,7 +1088,7 @@ form {
 .about {
   box-sizing: border-box;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/Images/back2.jpg);
+    url(/images/back2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
