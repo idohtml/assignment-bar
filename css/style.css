@@ -248,7 +248,16 @@ button[variant="form"] {
 
 .grid-images {
   border-radius: 12px;
+
+  height: 650px;
+  width: 100%;
   overflow: hidden;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .grid-cols-1 {
