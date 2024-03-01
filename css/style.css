@@ -255,12 +255,15 @@ button[variant="form"] {
     gap: 1rem;
     font-size: 1rem;
     font-weight: 500;
-  }
 
-  & li:hover {
-    border-bottom: 1px solid var(--clr-primary-400);
-    animation: linkMoveUp 250ms ease-in-out;
-    animation-fill-mode: both;
+    & li {
+      font-size: 6rem;
+    }
+    & li:hover {
+      border-bottom: 1px solid var(--clr-primary-400);
+      animation: linkMoveUp 250ms ease-in-out;
+      animation-fill-mode: both;
+    }
   }
 
   & a:hover {
