@@ -35,24 +35,18 @@
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/pages/Product.html"> Our Products </a>
+            <a href="/pages/Product.html">Products</a>
           </li>
           <li>
-            <a href="pages/About.html">About us</a>
+            <a href="pages/About.html">About</a>
           </li>
           <li>
             <a href="pages/Gallery.html">Gallery</a>
           </li>
           <li>
-            <a href="pages/Contact.html"> Contact us </a>
+            <a href="pages/Contact.html">Contact</a>
           </li>
         </ul>
-        <div class="btn-box">
-          <button variant="outline">
-            <a href="/pages/signin.html"> Sign In </a>
-          </button>
-          <button variant="primary">Sign Up</button>
-        </div>
       </nav>
     </header>
     <main>
@@ -71,7 +65,9 @@
                 <a href="/pages/Contact.html">Book Table</a>
               </button>
               <button variant="underline">
-                Contact us <span class="arrow-icon">&#8594;</span>
+                <a href="/pages/Contact.html">
+                  Contact us <span class="arrow-icon">&#8594;</span>
+                </a>
               </button>
             </div>
           </div>
@@ -307,22 +303,31 @@
         </ul>
       </div>
       <div>
-        <ul class="footer-nav" role="list">
-          <li>
-            <a href="/">Disclaimer</a>
-          </li>
-          <li>
-            <a href="/">Pricing</a>
-          </li>
-          <li>
-            <a href="/">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="/">Terms of Service</a>
-          </li>
-        </ul>
+        <div class="newsletter-signup">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Email" autocomplete="true" />
+          <button variant="form" type="submit">Skicka</button>
+        </div>
       </div>
-      <div></div>
+      <div class="copyright">
+        &#169; All Rights reserved: Sundsgården 2024
+        <div>
+          <ul class="footer-nav" role="list">
+            <li>
+              <a href="/">Disclaimer</a>
+            </li>
+            <li>
+              <a href="/">Pricing</a>
+            </li>
+            <li>
+              <a href="/">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="/">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

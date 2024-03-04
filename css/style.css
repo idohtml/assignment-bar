@@ -206,6 +206,10 @@ button[variant="underline"] {
   cursor: pointer;
   font-weight: 500;
 
+  & a {
+    color: var(--clr-primary-500);
+  }
+
   &::after {
     content: "";
     display: block;
@@ -279,6 +283,7 @@ button[variant="form"] {
 /* header component */
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   max-width: 1280px;
@@ -301,13 +306,11 @@ button[variant="form"] {
 
 .header-nav {
   display: flex;
-  align-items: center;
-  gap: 2rem;
 
   & ul {
     display: flex;
+    align-items: center;
     gap: 1rem;
-    font-size: 1rem;
     font-weight: 500;
   }
 
@@ -324,10 +327,9 @@ button[variant="form"] {
 
 .btn-box {
   display: flex;
-  gap: 1rem;
 
   width: 250px;
-  height: 50px;
+  height: auto;
 }
 
 /* Hero Section */
@@ -701,12 +703,20 @@ footer {
     margin-bottom: 1rem;
   }
 }
-/* 
-.footer-line {
-  border-top: 1px solid var(--btn-outline-200);
-  max-width: 1280px;
-  margin: 0 auto;
-} */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  border-top: 1px solid hsla(0, 0%, 50%, 0.2);
+  padding: 1rem;
+
+  & ul {
+    display: flex;
+    gap: 1rem;
+  }
+}
 
 /* Contact page */
 .section-contact-one {
