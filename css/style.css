@@ -959,6 +959,11 @@ form {
 .medier-logo {
   display: flex;
   gap: 4px;
+
+  & svg:hover {
+    fill: #f3f4f6;
+    transition: 250ms ease-in-out;
+  }
 }
 
 .link-mail:hover,
