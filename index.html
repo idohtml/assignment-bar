@@ -62,7 +62,7 @@
             </p>
             <div class="btn-box">
               <button variant="primary">
-                <a href="/pages/Contact.html">Book Table</a>
+                <a href="#table">Reserve Table</a>
               </button>
               <button variant="underline">
                 <a href="/pages/Contact.html">
@@ -240,37 +240,54 @@
               alt="Reserve a table for you and your friends"
             />
           </div>
-          <div>
+          <div id="table">
             <form>
-              <h2>Boka bord</h2>
+              <h2>Reserve a table</h2>
               <p>
-                Tänk på att reservationer som görs via mail måste bekräftas av
-                oss för att gälla!
+                Please note that reservations made via email must be confirmed
+                by us to be valid!
               </p>
               <div class="form-name">
                 <div class="form-input">
-                  <label for="firstName">Förnamn</label>
-                  <input type="firstName" placeholder="Förnamn" />
+                  <label for="firstName">First name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    placeholder="Your first name"
+                    autofocus
+                  />
                 </div>
                 <div class="form-input">
-                  <label for="lastName">Efternamn</label>
-                  <input type="lastName" placeholder="Efternamn" />
+                  <label for="lastName">Last name</label>
+                  <input
+                    type="text"
+                    id="lastName"
+                    placeholder="Your last name"
+                  />
                 </div>
               </div>
               <div class="form-input">
                 <label for="email">Email</label>
-                <input type="email" placeholder="Email adress" />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your email adress"
+                  required
+                />
               </div>
               <div class="form-input">
-                <label for="message">Meddelande</label>
+                <label for="message">Message</label>
                 <textarea
                   name="message"
                   id="message"
                   cols="30"
-                  placeholder="Meddelande"
+                  placeholder="Your message"
+                  required
                 ></textarea>
               </div>
-              <button variant="form" type="submit">Skicka</button>
+              <button variant="form" type="submit" class="btn-send">
+                Send
+              </button>
             </form>
           </div>
         </div>
