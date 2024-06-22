@@ -13,7 +13,6 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <!-- Ion-icon CDN -->
-    <script type="module" src="scripts/script.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Bar | Home</title>
   </head>
@@ -60,16 +59,16 @@
               Every sip is a story and every visit is a memory in the making.
               Join us for an evening of crafted cocktails and ambiance
             </p>
-            <div class="btn-box">
+            <nav class="btn-box">
               <button variant="primary">
-                <a href="#table">Reserve Table</a>
+                <a href="#booking">Book Table</a>
               </button>
               <button variant="underline">
                 <a href="/pages/Contact.html">
                   Contact us <span class="arrow-icon">&#8594;</span>
                 </a>
               </button>
-            </div>
+            </nav>
           </div>
           <div class="container md">
             <div class="image-container md">
@@ -232,7 +231,7 @@
           </div>
         </div>
       </section>
-      <section class="section-booking">
+      <section id="booking" class="section-booking">
         <div class="grid grid-cols-2">
           <div>
             <img
@@ -240,9 +239,9 @@
               alt="Reserve a table for you and your friends"
             />
           </div>
-          <div id="table">
+          <div>
             <form>
-              <h2>Reserve a table</h2>
+              <h2>Book Table</h2>
               <p>
                 Please note that reservations made via email must be confirmed
                 by us to be valid!
